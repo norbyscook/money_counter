@@ -1,7 +1,4 @@
 # script to add the total amount of money stated in a text file 
-# format of money: $ [number] [unit]
-# for example: $ 1 million
-# currently takes in "million" and "billion" as units.
 
 def main():
     filePtr = open("text.txt", "r", encoding="utf-8")
