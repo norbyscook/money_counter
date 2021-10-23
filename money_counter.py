@@ -22,7 +22,7 @@ def add_loop(filePtr):
 
 def extract_num(filePtr):
     num = read_number(filePtr)
-    units = read_identifier(filePtr)
+    units = read_units(filePtr)
     num = modify_num_size(units, num)
 
     return num
@@ -37,7 +37,7 @@ def modify_num_size(units, num):
 
     return num
 
-def read_identifier(filePtr):
+def read_units(filePtr):
     character = ' '
     identifier = ""
    
